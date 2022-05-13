@@ -1,0 +1,107 @@
+:root {
+  --netcarbon-green: #3c9c14;
+  --netcarbon-gray: #abacab;
+  --netcarbon-black: rgb(4, 17, 0);
+  --netcarbon-black-light: #193120;
+}
+div {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-kerning: auto;
+  font-size: 14px;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-variant-ligatures: normal;
+  font-weight: normal;
+}
+.app {
+  text-align: center;
+  background-color: var--(--netcarbon-black);
+}
+
+.bg-netcarbon-green {
+  background-color: var(--netcarbon-green);
+  color: var(--netcarbon-gray);
+  font-weight: bold;
+}
+
+.bg-netcarbon-gray {
+  background-color: var(--netcarbon-gray);
+  color: var(--netcarbon-black);
+  font-weight: bold;
+}
+.bg-netcarbon-dark {
+  background-color: var(--netcarbon-black);
+  color: var(--netcarbon-gray);
+  font-weight: bold;
+}
+
+.bg-netcarbon-dark-light {
+  background-color: var(--netcarbon-black-light);
+  color: var(--netcarbon-gray);
+  font-weight: bold;
+}
+
+.bg-outline-netCarbon-green {
+  opacity: 1;
+  color: var(--netcarbon-green);
+  font-weight: bold;
+  border: 1px solid !important;
+  border-color: var(--netcarbon-green);
+  background-color: transparent !important;
+}
+.bg-outline-netCarbon-green:hover {
+  opacity: 1;
+  color: var(--netcarbon-black);
+  font-weight: bold;
+  border: 1px solid !important;
+  border-color: var(--netcarbon-black);
+  background-color: var(--netcarbon-green) !important;
+}
+.text-netcarbon-green {
+  color: var(--netcarbon-green);
+}
+.text-netcarbon-green {
+  color: var(--netcarbon-green);
+}
+
+.border-netcarbon-green {
+  border: 1px solid;
+  border-color: var(--netcarbon-gray);
+}
+
+.button-netcarbon-green {
+  background-color: var(--netcarbon-green);
+  font-weight: bold !important;
+  border: 1px solid !important;
+  border-color: var(--netcarbon-green);
+  transition-duration: 0.4s !important;
+}
+
+.btn-hover-statistics:hover {
+  background-color: var(--netcarbon-dark);
+  color: var(--netcarbon-gray);
+  box-shadow: 5px 5px 10px -2px var(--netcarbon-green);
+}
+.btn-hover-sidebar:hover {
+  color: var(--netcarbon-gray);
+  box-shadow: 5px 0px 10px -2px var(--netcarbon-green);
+}
+
+.header-light {
+  background-color: var(--netcarbon-black-light);
+  box-shadow: 0px 4px 5px -2px var(--netcarbon-green);
+}
+.active {
+  background-color: var(--netcarbon-black);
+  color: var(--netcarbon-green);
+  box-shadow: 5px 0 5px -2px var(--netcarbon-green);
+}
+.div-dash {
+  height: 300px;
+  overflow-y: auto;
+}
+.div-dash-x2 {
+  height: 500px;
+  overflow-y: auto;
+}
